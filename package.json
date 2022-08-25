@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "prestart": "npm run export",
+    "start": "wrangler pages dev ./out --node-compat",
     "lint": "next lint",
     "preexport": "npm run build",
     "export": "next export"
