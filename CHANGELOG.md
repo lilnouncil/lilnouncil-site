@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.1] - 2022-08-25
+
+### <!-- 04 -->Refactor
+
+- Add some text to the main index
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Add `wrangler@2.0.27` to dependencies
+- Replace next start script by wrangler
+
 ## [1.0.0-alpha.0] - 2022-08-25
 
 ### <!-- 04 -->Refactor
