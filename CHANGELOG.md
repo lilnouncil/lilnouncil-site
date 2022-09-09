@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.2] - 2022-09-09
+
+### <!-- 07 -->Continuous Integrations
+
+- Bump `pnpm` version from `6.0.2` to `7.10.0` on `build`
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump eslint-config-next from 12.2.5 to 12.3.0
+- Bump next from 12.2.5 to 12.3.0
+- Bump @types/node from 18.7.13 to 18.7.16
+- Bump eslint from 8.22.0 to 8.23.0
+
 ## [1.0.0-alpha.1] - 2022-08-25
 
 ### <!-- 04 -->Refactor
