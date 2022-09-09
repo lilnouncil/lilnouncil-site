@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.3] - 2022-09-09
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Update pnpm lockfile frozen state
+- Bump @types/react from 18.0.17 to 18.0.18
+
 ## [1.0.0-alpha.2] - 2022-09-09
 
 ### <!-- 07 -->Continuous Integrations
