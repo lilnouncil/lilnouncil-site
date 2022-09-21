@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.5] - 2022-09-21
+
+### <!-- 07 -->Continuous Integrations
+
+- Bump pnpm/action-setup from 2.0.1 to 2.2.2
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump next from 12.3.0 to 12.3.1
+- Bump eslint-config-next from 12.3.0 to 12.3.1
+- Bump @types/node from 18.7.16 to 18.7.18
+- Bump @types/react from 18.0.18 to 18.0.20
+- Bump eslint from 8.23.0 to 8.23.1
+
 ## [1.0.0-alpha.4] - 2022-09-09
 
 ### <!-- 07 -->Continuous Integrations
