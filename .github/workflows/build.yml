@@ -19,29 +19,26 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [16.x, 17.x]
+        node-version: [16.x, 17.x, 18.x, 19.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3.1.0
-
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3.5.1
         with:
-          node-version: ${{ matrix.node-version }} 
+          node-version: ${{ matrix.node-version }}
 
       - uses: pnpm/action-setup@v2.2.4
         name: Install pnpm
         id: pnpm-install
         with:
-          version: 7
+          version: ^7
           run_install: false
 
       - name: Get pnpm store directory
         id: pnpm-cache
         run: |
-          echo "::set-output name=pnpm_cache_dir::$(pnpm store path)"
+          echo "pnpm_cache_dir=$(pnpm store path)" >> $GITHUB_OUTPUT
 
       - uses: actions/cache@v3.0.11
         name: Setup pnpm cache
@@ -51,8 +48,13 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-pnpm-store-
 
+      - name: Checkout
+        uses: actions/checkout@v3.1.0
+
       - name: Install dependencies
         run: pnpm install --no-frozen-lockfile
 
-      - run: pnpm run build
-        name: Build the Next app
+      - name: Build & export the app
+        run: pnpm run export
+        env:
+          NEXT_PUBLIC_SITE_URL: ${{ secrets.NEXT_PUBLIC_SITE_URL  }}
