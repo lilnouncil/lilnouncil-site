@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.7] - 2023-01-02
+
+### <!-- 07 -->Continuous Integrations
+
+- Setup stale bot to closes abandoned issues
+- Add a new `release` workflow to create releases
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump eslint-config-next from 13.0.2 to 13.1.0 ([#72](https://github.com/orhun/git-cliff/issues/72))
+
 ## [1.0.0-alpha.6] - 2022-12-23
 
 ### <!-- 05 -->Documentation
