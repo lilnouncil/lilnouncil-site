@@ -4,7 +4,7 @@ specifiers:
   '@next/font': 13.2.4
   '@types/node': 18.15.11
   '@types/react': 18.0.24
-  '@types/react-dom': 18.0.9
+  '@types/react-dom': 18.0.11
   autoprefixer: 10.4.14
   clsx: 1.2.1
   eslint: 8.30.0
@@ -30,7 +30,7 @@ dependencies:
 devDependencies:
   '@types/node': 18.15.11
   '@types/react': 18.0.24
-  '@types/react-dom': 18.0.9
+  '@types/react-dom': 18.0.11
   eslint: 8.30.0
   eslint-config-next: 13.1.0_vgwtd652yfwxzqtunuczsdfoxm
   typescript: 5.0.3
@@ -676,8 +676,8 @@ packages:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
     dev: true
 
-  /@types/react-dom/18.0.9:
-    resolution: {integrity: sha512-qnVvHxASt/H7i+XG1U1xMiY5t+IHcPGUK7TDMDzom08xa7e86eCeKOiLZezwCKVxJn6NEiiy2ekgX8aQssjIKg==}
+  /@types/react-dom/18.0.11:
+    resolution: {integrity: sha512-O38bPbI2CWtgw/OoQoY+BRelw7uysmXbWvw3nLWO21H1HSh+GOlqPuXshJfjmpNlKiiSDG9cc1JZAaMmVdcTlw==}
     dependencies:
       '@types/react': 18.0.24
     dev: true
