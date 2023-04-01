@@ -2,6 +2,36 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.8] - 2023-04-01
+
+### <!-- 05 -->Documentation
+
+- Cleanup the project readme file
+
+### <!-- 07 -->Continuous Integrations
+
+- Bump orhun/git-cliff-action from 2.0.1 to 2.0.5 ([#89](https://github.com/orhun/git-cliff/issues/89))
+- Bump actions/cache from 3.0.11 to 3.3.1 ([#96](https://github.com/orhun/git-cliff/issues/96))
+- Bump actions/checkout from 3.1.0 to 3.5.0 ([#100](https://github.com/orhun/git-cliff/issues/100))
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Add `@next/font` to dependencies
+- Add `clsx` to dependencies
+- Improve package manager configs
+- Specifiy node version of cloudflare pages
+- Replace exact versions instead of carrot
+- Bump tailwindcss from 3.1.8 to 3.2.6 ([#90](https://github.com/orhun/git-cliff/issues/90))
+- Bump wrangler from 2.0.27 to 2.9.1 ([#91](https://github.com/orhun/git-cliff/issues/91))
+- Bump autoprefixer from 10.4.8 to 10.4.14 ([#98](https://github.com/orhun/git-cliff/issues/98))
+- Bump next from 13.1.0 to 13.2.4 ([#99](https://github.com/orhun/git-cliff/issues/99))
+- Bump @types/node from 18.11.17 to 18.15.11 ([#103](https://github.com/orhun/git-cliff/issues/103))
+- Bump @next/font from 13.1.6 to 13.2.4 ([#102](https://github.com/orhun/git-cliff/issues/102))
+- Bump typescript from 4.9.4 to 5.0.3 ([#104](https://github.com/orhun/git-cliff/issues/104))
+- Bump @types/react-dom from 18.0.9 to 18.0.11 ([#105](https://github.com/orhun/git-cliff/issues/105))
+- Bump postcss from 8.4.16 to 8.4.21 ([#92](https://github.com/orhun/git-cliff/issues/92))
+- Bump eslint from 8.30.0 to 8.37.0 ([#106](https://github.com/orhun/git-cliff/issues/106))
+
 ## [1.0.0-alpha.7] - 2023-01-02
 
 ### <!-- 07 -->Continuous Integrations
