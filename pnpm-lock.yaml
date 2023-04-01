@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@next/font': 13.1.6
+  '@next/font': 13.2.4
   '@types/node': 18.15.11
   '@types/react': 18.0.24
   '@types/react-dom': 18.0.9
@@ -18,7 +18,7 @@ specifiers:
   wrangler: 2.9.1
 
 dependencies:
-  '@next/font': 13.1.6
+  '@next/font': 13.2.4
   autoprefixer: 10.4.14_postcss@8.4.16
   clsx: 1.2.1
   next: 13.2.4_biqbaboplfbrettd7655fr4n2y
@@ -497,8 +497,8 @@ packages:
       glob: 7.1.7
     dev: true
 
-  /@next/font/13.1.6:
-    resolution: {integrity: sha512-AITjmeb1RgX1HKMCiA39ztx2mxeAyxl4ljv2UoSBUGAbFFMg8MO7YAvjHCgFhD39hL7YTbFjol04e/BPBH5RzQ==}
+  /@next/font/13.2.4:
+    resolution: {integrity: sha512-lMAnuOYjv5g22WhD00u0DQ9u2rTMJH0S64PKE4Sy8Y2q+FJTYs6ZHT2z3VRoI8+AOWSLK4FirpnygcjOienQ9A==}
     dev: false
 
   /@next/swc-android-arm-eabi/13.2.4:
@@ -661,7 +661,7 @@ packages:
   /@types/better-sqlite3/7.6.3:
     resolution: {integrity: sha512-YS64N9SNDT/NAvou3QNdzAu3E2om/W/0dhORimtPGLef+zSK5l1vDzfsWb4xgXOgfhtOI5ZDTRxnvRPb22AIVQ==}
     dependencies:
-      '@types/node': 18.11.17
+      '@types/node': 18.15.11
     dev: true
 
   /@types/json5/0.0.29:
