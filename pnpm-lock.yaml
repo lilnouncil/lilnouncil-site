@@ -15,7 +15,7 @@ specifiers:
   react-dom: 18.2.0
   tailwindcss: 3.3.1
   typescript: 5.0.4
-  wrangler: 2.14.0
+  wrangler: 2.15.0
 
 dependencies:
   '@next/font': 13.3.0
@@ -34,7 +34,7 @@ devDependencies:
   eslint: 8.37.0
   eslint-config-next: 13.3.0_bzbbflj65ga2lrhzlpvelbzcnq
   typescript: 5.0.4
-  wrangler: 2.14.0
+  wrangler: 2.15.0
 
 packages:
 
@@ -2970,8 +2970,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /wrangler/2.14.0:
-    resolution: {integrity: sha512-LTmSQ0jyd8c6bRhOAZZOh21Tr/HKkx7eWebCV2QmOHyacEeWLgc3Nu6KrOVBpqFVKCPCXHvcgqiN97I/nJHvFA==}
+  /wrangler/2.15.0:
+    resolution: {integrity: sha512-VCjmpztOXfY9h5vbkkcxVe0wCS3ZjEph9AG5tvO72bwAeX95eYGts/rQv6APjN5WFigrKKyvm92TDldW2XYEWA==}
     engines: {node: '>=16.13.0'}
     hasBin: true
     dependencies:
