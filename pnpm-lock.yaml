@@ -1,14 +1,14 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@next/font': 13.3.0
+  '@next/font': 13.3.1
   '@types/node': 18.16.0
   '@types/react': 18.0.37
   '@types/react-dom': 18.0.11
   autoprefixer: 10.4.14
   clsx: 1.2.1
   eslint: 8.39.0
-  eslint-config-next: 13.3.0
+  eslint-config-next: 13.3.1
   next: 13.3.1
   postcss: 8.4.23
   react: 18.2.0
@@ -18,7 +18,7 @@ specifiers:
   wrangler: 2.16.0
 
 dependencies:
-  '@next/font': 13.3.0
+  '@next/font': 13.3.1
   autoprefixer: 10.4.14_postcss@8.4.23
   clsx: 1.2.1
   next: 13.3.1_biqbaboplfbrettd7655fr4n2y
@@ -32,7 +32,7 @@ devDependencies:
   '@types/react': 18.0.37
   '@types/react-dom': 18.0.11
   eslint: 8.39.0
-  eslint-config-next: 13.3.0_iacogk7kkaymxepzhgcbytyi7q
+  eslint-config-next: 13.3.1_iacogk7kkaymxepzhgcbytyi7q
   typescript: 5.0.4
   wrangler: 2.16.0
 
@@ -511,14 +511,14 @@ packages:
     resolution: {integrity: sha512-EDtCoedIZC7JlUQ3uaQpSc4aVmyhbLHmQVALg7pFfQgOTjgSnn7mKtA0DiCMkYvvsx6aFb5octGMtWrOtGXW9A==}
     dev: false
 
-  /@next/eslint-plugin-next/13.3.0:
-    resolution: {integrity: sha512-wuGN5qSEjSgcq9fVkH0Y/qIPFjnZtW3ZPwfjJOn7l/rrf6y8J24h/lo61kwqunTyzZJm/ETGfGVU9PUs8cnzEA==}
+  /@next/eslint-plugin-next/13.3.1:
+    resolution: {integrity: sha512-Hpd74UrYGF+bq9bBSRDXRsRfaWkPpcwjhvachy3sr/R/5fY6feC0T0s047pUthyqcaeNsqKOY1nUGQQJNm4WyA==}
     dependencies:
       glob: 7.1.7
     dev: true
 
-  /@next/font/13.3.0:
-    resolution: {integrity: sha512-xUv7VRUA2Zr6n/KJDILyv7/zGy9xKUsyQURaQqYr7lVxn0REScazwyZQzhSm+DnJoUyo+9DcFs2J3WsZXHUvQw==}
+  /@next/font/13.3.1:
+    resolution: {integrity: sha512-S8Shizt4xlHDItXTAowEoyktiaLIEzTxJeXPaRu+VDeb21yXu7kMX2DUQE5Un+kb/ViCaAdWlyltCuS2sywEjA==}
     dev: false
 
   /@next/swc-darwin-arm64/13.3.1:
@@ -1213,8 +1213,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-config-next/13.3.0_iacogk7kkaymxepzhgcbytyi7q:
-    resolution: {integrity: sha512-6YEwmFBX0VjBd3ODGW9df0Is0FLaRFdMN8eAahQG9CN6LjQ28J8AFr19ngxqMSg7Qv6Uca/3VeeBosJh1bzu0w==}
+  /eslint-config-next/13.3.1_iacogk7kkaymxepzhgcbytyi7q:
+    resolution: {integrity: sha512-DieA5djybeE3Q0IqnDXihmhgRSp44x1ywWBBpVRA9pSx+m5Icj8hFclx7ffXlAvb9MMLN6cgj/hqJ4lka/QmvA==}
     peerDependencies:
       eslint: ^7.23.0 || ^8.0.0
       typescript: '>=3.3.1'
@@ -1222,7 +1222,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@next/eslint-plugin-next': 13.3.0
+      '@next/eslint-plugin-next': 13.3.1
       '@rushstack/eslint-patch': 1.1.4
       '@typescript-eslint/parser': 5.47.0_iacogk7kkaymxepzhgcbytyi7q
       eslint: 8.39.0
