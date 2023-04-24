@@ -2,6 +2,37 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.10] - 2023-04-24
+
+### <!-- 07 -->Continuous Integrations
+
+- Bump actions/checkout from 3.5.0 to 3.5.1 
+- Bump actions/checkout from 3.5.1 to 3.5.2 
+- Bump `pnpm` version from 7 to 8 on `pnpm` workflow
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump next from 13.2.4 to 13.3.0 
+- Bump @next/font from 13.2.4 to 13.3.0 
+- Bump eslint-config-next from 13.2.4 to 13.3.0 
+- Bump typescript from 5.0.3 to 5.0.4 
+- Bump @types/react from 18.0.33 to 18.0.35 
+- Bump eslint from 8.37.0 to 8.38.0 
+- Bump wrangler from 2.14.0 to 2.15.0 
+- Bump wrangler from 2.15.0 to 2.15.1 
+- Bump postcss from 8.4.21 to 8.4.22 
+- Bump wrangler from 2.15.1 to 2.16.0 
+- Bump @types/react from 18.0.35 to 18.0.37 
+- Bump postcss from 8.4.22 to 8.4.23 
+- Bump @types/node from 18.15.11 to 18.15.12 
+- Bump @types/node from 18.15.12 to 18.15.13 
+- Bump @types/node from 18.15.13 to 18.16.0 
+- Bump eslint from 8.38.0 to 8.39.0 
+- Bump eslint-config-next from 13.3.0 to 13.3.1 
+- Bump next from 13.3.0 to 13.3.1 
+- Bump @types/react from 18.0.37 to 18.0.38 
+- Bump @next/font from 13.3.0 to 13.3.1 
+
 ## [1.0.0-alpha.9] - 2023-04-04
 
 ### <!-- 08 -->Miscellaneous Tasks
