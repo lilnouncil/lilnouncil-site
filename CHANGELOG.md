@@ -2,6 +2,40 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.11] - 2023-05-18
+
+### <!-- 07 -->Continuous Integrations
+
+- Bump orhun/git-cliff-action from 2.0.5 to 2.0.6 
+- Change `open-pull-requests-limit` from 10 to 20
+- Add node version 20 on `build` workflow
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump wrangler from 2.16.0 to 2.17.0 
+- Bump @types/react-dom from 18.0.11 to 18.2.1 
+- Bump tailwindcss from 3.3.1 to 3.3.2 
+- Bump eslint from 8.39.0 to 8.40.0 
+- Bump @types/react from 18.0.38 to 18.2.6 
+- Bump wrangler from 2.17.0 to 2.19.0 
+- Bump next from 13.3.1 to 13.4.1 
+- Bump @next/font from 13.3.1 to 13.4.1 
+- Bump @types/react-dom from 18.2.1 to 18.2.4 
+- Bump @types/node from 18.16.0 to 20.1.0 
+- Bump eslint-config-next from 13.3.1 to 13.4.1 
+- Bump wrangler from 2.19.0 to 2.20.0 
+- Bump @types/node from 20.1.0 to 20.1.1 
+- Bump @types/node from 20.1.1 to 20.1.2 
+- Bump @types/node from 20.1.2 to 20.1.3 
+- Bump eslint-config-next from 13.4.1 to 13.4.2 
+- Bump next from 13.4.1 to 13.4.2 
+- Bump @next/font from 13.4.1 to 13.4.2 
+- Bump @types/node from 20.1.3 to 20.1.4 
+- Bump @types/node from 20.1.4 to 20.1.5 
+- Bump @types/node from 20.1.5 to 20.1.7 
+- Bump @types/node from 20.1.7 to 20.2.0 
+- Bump wrangler from 2.20.0 to 3.0.0 
+
 ## [1.0.0-alpha.10] - 2023-04-24
 
 ### <!-- 07 -->Continuous Integrations
