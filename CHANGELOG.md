@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.12] - 2023-05-28
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump @types/node from 20.2.0 to 20.2.1 
+- Bump @types/node from 20.2.1 to 20.2.3 
+- Bump eslint from 8.40.0 to 8.41.0 
+- Bump @next/font from 13.4.2 to 13.4.3 
+- Bump next from 13.4.2 to 13.4.3 
+- Bump eslint-config-next from 13.4.2 to 13.4.3 
+- Bump wrangler from 3.0.0 to 3.0.1 
+- Bump @types/react from 18.2.6 to 18.2.7 
+- Bump @types/node from 20.2.3 to 20.2.4 
+- Bump @next/font from 13.4.3 to 13.4.4 
+- Bump next from 13.4.3 to 13.4.4 
+- Bump eslint-config-next from 13.4.3 to 13.4.4 
+
 ## [1.0.0-alpha.11] - 2023-05-18
 
 ### <!-- 07 -->Continuous Integrations
