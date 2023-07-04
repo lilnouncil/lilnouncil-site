@@ -2,6 +2,33 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.14] - 2023-07-04
+
+### <!-- 05 -->Documentation
+
+- Add funding to the packge configs
+- Set sponsorships configuration for github
+
+### <!-- 07 -->Continuous Integrations
+
+- Bump actions/checkout from 3.5.2 to 3.5.3 
+- Switch `package-ecosystem` from `npm` to `pnpm` for Dependabot
+- Change `package-ecosystem` back to `npm` on Dependabot configs
+- Update matrix `node-version` on build workflow
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Update `pnpm` lockfile state
+- Bump typescript from 5.1.3 to 5.1.6 
+- Bump @types/node from 20.2.4 to 20.3.3 
+- Bump next from 13.4.4 to 13.4.7 
+- Bump @types/react from 18.2.9 to 18.2.14 
+- Bump eslint-config-next from 13.4.4 to 13.4.7 
+- Bump wrangler from 3.1.0 to 3.1.1 
+- Bump @next/font from 13.4.4 to 13.4.7 
+- Bump @types/react-dom from 18.2.4 to 18.2.6 
+- Bump eslint from 8.42.0 to 8.44.0 
+
 ## [1.0.0-alpha.13] - 2023-06-10
 
 ### <!-- 08 -->Miscellaneous Tasks
