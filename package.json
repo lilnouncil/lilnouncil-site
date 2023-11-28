@@ -5,11 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "prestart": "npm run export",
+    "prestart": "npm run build",
     "start": "wrangler pages dev ./out --node-compat",
-    "lint": "next lint",
-    "preexport": "npm run build",
-    "export": "next export"
+    "lint": "next lint"
   },
   "dependencies": {
     "@next/font": "14.0.3",
