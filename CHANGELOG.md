@@ -2,6 +2,42 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.15] - 2023-11-28
+
+### <!-- 07 -->Continuous Integrations
+
+- Bump actions/setup-node from 3.5.1 to 3.7.0 
+- Bump actions/cache from 3.3.1 to 3.3.2 
+- Bump orhun/git-cliff-action from 2.0.6 to 2.3.0 
+- Bump actions/setup-node from 3.7.0 to 4.0.0 
+- Bump pnpm/action-setup from 2.2.4 to 2.4.0 
+- Bump actions/checkout from 3.5.3 to 4.1.1 
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump next from 13.4.7 to 13.4.8 
+- Bump @next/font from 13.4.7 to 13.4.8 
+- Bump eslint-config-next from 13.4.7 to 13.4.8 
+- Bump @types/node from 20.3.3 to 20.4.0 
+- Bump postcss from 8.4.23 to 8.4.25 
+- Bump @next/font from 13.4.8 to 13.4.9 
+- Bump next from 13.4.8 to 13.4.9 
+- Bump wrangler from 3.1.1 to 3.1.2 
+- Bump eslint-config-next from 13.4.8 to 13.4.9 
+- Bump @types/node from 20.4.0 to 20.4.1 
+- Bump @types/node from 20.4.1 to 20.10.0 
+- Bump tailwindcss from 3.3.2 to 3.3.5 
+- Bump wrangler from 3.1.2 to 3.17.1 
+- Bump postcss from 8.4.25 to 8.4.31 
+- Bump @types/react-dom from 18.2.6 to 18.2.17 
+- Bump @next/font from 13.4.9 to 14.0.3 
+- Bump eslint-config-next from 13.4.9 to 14.0.3 
+- Bump typescript from 5.1.6 to 5.3.2 
+- Bump clsx from 1.2.1 to 2.0.0 
+- Bump eslint from 8.44.0 to 8.54.0 
+- Bump autoprefixer from 10.4.14 to 10.4.16 
+- Bump @types/react from 18.2.14 to 18.2.39 
+
 ## [1.0.0-alpha.14] - 2023-07-04
 
 ### <!-- 05 -->Documentation
