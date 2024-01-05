@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.17] - 2024-01-05
+
+### Miscellaneous Tasks
+
+- Simplify images configuration in `next.config.js`
+
 ## [1.0.0-alpha.16] - 2023-11-28
 
 ### Refactor
