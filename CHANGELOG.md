@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.18] - 2024-01-07
+
+### Documentation
+
+- Add badges and update description on `README.md`
+
+### Miscellaneous Tasks
+
+- Add new git flow workflow for handling pull requests
+
 ## [1.0.0-alpha.17] - 2024-01-05
 
 ### Miscellaneous Tasks
