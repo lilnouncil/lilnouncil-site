@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.19] - 2024-01-10
+
+### Documentation
+
+- Solve build badge address issue on readme
+- Add a license file for the project
+
 ## [1.0.0-alpha.18] - 2024-01-07
 
 ### Documentation
