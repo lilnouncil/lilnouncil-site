@@ -4,6 +4,9 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+overrides:
+  undici: '>=5.26.2'
+
 dependencies:
   '@next/font':
     specifier: 14.0.4
