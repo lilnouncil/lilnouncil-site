@@ -7,6 +7,7 @@ import Image from "next/image";
 const navigation = [
   {name: 'Home', href: '/'},
   // {name: 'About', href: '/about'},
+  {name: 'Delegate', href: 'https://lilnouns.wtf/delegate?to=lilnouncil.eth'}
 ]
 
 export function Navbar() {
