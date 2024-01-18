@@ -8,7 +8,7 @@ interface LayoutProps {
 
 export function Layout({children}: LayoutProps) {
   return (
-    <main className={clsx(londrinaSolid.variable, 'bg-gray-900')}>
+    <main className={clsx(londrinaSolid.variable, 'min-h-screen')}>
       {children}
     </main>
   );
