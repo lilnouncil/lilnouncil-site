@@ -1,12 +1,12 @@
 import {useState} from "react";
 import {Bars3Icon, XMarkIcon} from "@heroicons/react/24/outline";
 import {Dialog} from "@headlessui/react";
+import Link from "next/link";
+import Image from "next/image";
 
 const navigation = [
-  {name: 'Product', href: '#'},
-  {name: 'Features', href: '#'},
-  {name: 'Marketplace', href: '#'},
-  {name: 'Company', href: '#'},
+  {name: 'Home', href: '/'},
+  // {name: 'About', href: '/about'},
 ]
 
 export function Navbar() {
@@ -18,11 +18,13 @@ export function Navbar() {
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Lil Nouncil</span>
-            <img
+            {/*<Image
               className="h-8 w-auto"
-              src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+              src=""
               alt=""
-            />
+              height={32}
+              width={32}
+            />*/}
           </a>
         </div>
         <div className="flex lg:hidden">
@@ -37,15 +39,15 @@ export function Navbar() {
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
           {navigation.map((item) => (
-            <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-white">
+            <Link key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-white">
               {item.name}
-            </a>
+            </Link>
           ))}
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" className="text-sm font-semibold leading-6 text-white">
+          {/*<a href="#" className="text-sm font-semibold leading-6 text-white">
             Log in <span aria-hidden="true">&rarr;</span>
-          </a>
+          </a>*/}
         </div>
       </nav>
       <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
