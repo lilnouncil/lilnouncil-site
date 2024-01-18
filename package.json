@@ -1,6 +1,6 @@
 {
   "name": "lilnouncil",
-  "version": "1.0.0-alpha.19",
+  "version": "1.0.0-alpha.20",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@next/font": "14.0.4",
-    "autoprefixer": "10.4.16",
+    "autoprefixer": "10.4.17",
     "clsx": "2.1.0",
     "next": "14.0.4",
     "postcss": "8.4.33",
@@ -20,13 +20,13 @@
     "tailwindcss": "3.4.1"
   },
   "devDependencies": {
-    "@types/node": "20.10.8",
-    "@types/react": "18.2.47",
+    "@types/node": "20.11.5",
+    "@types/react": "18.2.48",
     "@types/react-dom": "18.2.18",
     "eslint": "8.56.0",
     "eslint-config-next": "14.0.4",
     "typescript": "5.3.3",
-    "wrangler": "3.22.4"
+    "wrangler": "3.22.5"
   },
   "resolutions": {
     "undici": ">=5.26.2"
