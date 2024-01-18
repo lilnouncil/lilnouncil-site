@@ -14,8 +14,9 @@ const Home: NextPage = () => {
     <>
       <Head>
         <title>Lil Nouncil</title>
-        <meta name="description" content="Council of Lil Nouns" />
-        <link rel="icon" href="/favicon.ico" />
+        <meta name="description"
+              content="A council of Nounish builders working within the framework of Lil Nouns DAO to proliferate CC0 and nounish culture."/>
+        <link rel="icon" href="/favicon.ico"/>
       </Head>
 
       <main className={clsx(londrinaSolid.variable, "flex h-screen justify-center items-center font-sans")}>
