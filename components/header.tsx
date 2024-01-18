@@ -1,5 +1,6 @@
 import {Navbar} from "./navbar";
 import Image from "next/image";
+import {Delegate} from "./delegate";
 
 export function Header() {
   return (
@@ -46,8 +47,9 @@ export function Header() {
               A council of Nounish builders working within the framework of <strong>Lil Nouns DAO</strong> to
               proliferate CC0 and nounish culture.
             </p>
-            {/*<div className="mt-10 flex items-center justify-center gap-x-6">
-              <a
+            <div className="mt-10 flex items-center justify-center gap-x-6">
+              <Delegate />
+              {/*<a
                 href="#"
                 className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
               >
@@ -55,8 +57,8 @@ export function Header() {
               </a>
               <a href="#" className="text-sm font-semibold leading-6 text-white">
                 Learn more <span aria-hidden="true">→</span>
-              </a>
-            </div>*/}
+              </a>*/}
+            </div>
           </div>
         </div>
         <div
