@@ -2,7 +2,6 @@ import {useState} from "react";
 import {Bars3Icon, XMarkIcon} from "@heroicons/react/24/outline";
 import {Dialog} from "@headlessui/react";
 import Link from "next/link";
-import Image from "next/image";
 
 const navigation = [
   {name: 'Home', href: '/'},
@@ -58,11 +57,11 @@ export function Navbar() {
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Lil Nouncil</span>
-              <img
+              {/*<img
                 className="h-8 w-auto"
                 src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
                 alt=""
-              />
+              />*/}
             </a>
             <button
               type="button"
@@ -87,12 +86,12 @@ export function Navbar() {
                 ))}
               </div>
               <div className="py-6">
-                <a
+                {/*<a
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-white hover:bg-gray-800"
                 >
                   Log in
-                </a>
+                </a>*/}
               </div>
             </div>
           </div>
