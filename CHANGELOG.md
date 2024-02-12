@@ -2,6 +2,30 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.22] - 2024-02-07
+
+### Refactor
+
+- Remove unnecessary links from `Navbar`
+
+## [1.0.0-alpha.21] - 2024-02-04
+
+### Refactor
+
+- Update home page meta description
+- Add a new `Header` component to the index page
+- Replace google fonts by local fonts
+- Add new `Layout` and move `Header` to the components
+- Update header height to be same as screen height
+- Add new `Navbar` components extracted from `Header`
+- Remove or disable unnecessary parts on `Navbar`
+- Add new link for delegation to the `Navbar`
+
+### Miscellaneous Tasks
+
+- Add `wrangler` cache folder to `.gitignore`
+- Add group of dependencies to Dependabot configs
+
 ## [1.0.0-alpha.20] - 2024-01-18
 
 ### Bug Fixes
