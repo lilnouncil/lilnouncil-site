@@ -10,7 +10,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@headlessui/react": "2.1.6",
+    "@headlessui/react": "2.1.7",
     "@heroicons/react": "2.1.5",
     "autoprefixer": "10.4.20",
     "clsx": "2.1.1",
