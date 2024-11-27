@@ -27,7 +27,7 @@
     "eslint": "9.15.0",
     "eslint-config-next": "15.0.3",
     "typescript": "5.7.2",
-    "wrangler": "3.90.0"
+    "wrangler": "3.91.0"
   },
   "resolutions": {
     "undici": ">=5.26.2"
